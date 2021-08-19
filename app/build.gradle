@@ -30,7 +30,9 @@ android {
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.1.0'
+
     implementation 'com.google.android.material:material:1.1.0'
+//    implementation 'com.github.yuekong:silicompressor:1.0.3'
     implementation project(':library-silicompressor')
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 }
