@@ -62,9 +62,6 @@ public class SelectPictureActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_picture);
-//        android.widget.Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
-
         imageView = findViewById(R.id.photo);
         videoImageView = findViewById(R.id.videoImageView);
         picDescription = findViewById(R.id.pic_description);
